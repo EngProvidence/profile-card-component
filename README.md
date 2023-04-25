@@ -81,4 +81,4 @@ I will and  currently learning reactjs, tailwing css, flutter, dart and many mor
 All thanks to the almighty God for continues strenght and knowledge , guidance and
 protection every day and through this project. and to Jesus Christ his son my lord
 and to my mentor engineer [@mbangsi Rene]
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
