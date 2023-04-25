@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile-card-component</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .main{width: 40%;}
+        @media only screen  and (max-width:400px) {
+            .main{width: 99%;} 
+        }
+
+        @media screen  and (min-width:401px) and (max-width:700px) {
+            .main{width: 80%;} 
+        }
+        
+        @media screen  and (min-width:701px) and (max-width:900px) {
+            .main{width: 70%;} 
+        }
+        @media screen  and (min-width:901px) and (max-width:1200px) {
+            .main{width: 60%;} 
+        } 
+
+       span{color: hsl(0, 0%, 59%);} 
+        .img {
+            background-image: url(images/bg-pattern-card.svg);
+            height: 200px;
+
+            border-radius: 10px 10px 0px 0px;
+
+        }
+        #victor{border:5px solid white;
+                 border-radius: 50%;
+                 position: absolute;
+                 top: 27%;
+                 left: 46%;
+                }
+    </style>
+</head>
+
+<body style="background-color: hsl(185, 75%, 39%);">
+
+    <div class="container">
+        <!-- main div begins here  -->
+        <div class="main rounded-4 mx-auto mt-5 text-center" style="background-color: hsl(180, 100%, 100%);">
+
+            <div class="img">
+                <img src="images/bg-pattern-top.svg" alt="" width="50px">
+            </div>
+
+            <!-- victors profile -->
+            <div class="head">
+                <img src="images/image-victor.jpg" id="victor"  alt="profile">
+                <br><br><br>
+                <!--  name and address -->
+                <h4>Victor Crest <span>26</span></h4>
+                <p><span>London</span></p>
+                <br>
+                <hr>
+
+                <!-- account stats -->
+                <div class="row">
+                    <div class="col-4">
+                        <h4>80k</h4>
+                        <p><span>Followers</span></p>
+                    </div>
+                    <div class="col-4">
+                        <h4>803k</h4>
+                        <p><span>Likes</span></p>
+                    </div>
+                    <div class="col-4">
+                        <h4>1.4k</h4>
+                        <p><span>photos</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+<i>
+    <p>this code challenge was done by Engineer Providence  <a style="text-decoration: none; color: white; margin-top: 50px;" href="https://engprovidence.github.io/portfolio/" target="_blank"> click here to see profile</a></p>
+</i>
+</body>
+
+</html>
